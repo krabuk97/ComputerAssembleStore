@@ -169,6 +169,19 @@ async = ["asgiref (>=3.2)"]
 dotenv = ["python-dotenv"]
 
 [[package]]
+name = "flask-sessions"
+version = "0.1.5"
+description = "Adds server-side session support to your Flask application"
+optional = false
+python-versions = "*"
+files = [
+    {file = "Flask-Sessions-0.1.5.tar.gz", hash = "sha256:dd56d1f132715cb9fa0edbdd911ece081b4738e3ae8f39c505ee383d3f84428d"},
+]
+
+[package.dependencies]
+Flask = ">=0.8"
+
+[[package]]
 name = "idna"
 version = "3.4"
 description = "Internationalized Domain Names in Applications (IDNA)"
@@ -334,4 +347,4 @@ watchdog = ["watchdog (>=2.3)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10.0,<3.11"
-content-hash = "1f1e88459e67c8a6813e84ab63c80868fbd939773ed116b6964c23d010a7bab7"
+content-hash = "612f5c147bf94082fc6b3eef2fc55cd0adbe178ab32876b146b012011be0b92f"
