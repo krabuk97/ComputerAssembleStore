@@ -9,6 +9,9 @@ python = ">=3.10.0,<3.11"
 flask = "3.0.0"
 requests = "2.31.0"
 flask-sessions = "0.1.5"
+wtforms = "^3.1.1"
+flask-wtf = "^1.2.1"
+sqlite3-0611 = "0.0.1"
 
 [tool.pyright]
 # https://github.com/microsoft/pyright/blob/main/docs/configuration.md
